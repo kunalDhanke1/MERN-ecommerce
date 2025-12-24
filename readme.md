@@ -1,55 +1,39 @@
-## MERN Ecommerce: A Seamless Shopping Experience Powered by the MERN Stack, Redux Toolkit, and Material UI
+## MERN Ecommerce: 
 
-### Also try -> [https://mernchat.in](https://mernchat.in)
-### ```Note✨: I have another amazing project on``` [end-to-end-encrypted-chat-application](https://github.com/RishiBakshii/mern-chat) ```using Next.js, Prisma, Postgresql, Express, Socket.io.```
-
-**MERN Ecommerce** is a full-stack application designed to transform your online shopping experience. Built with the MERN stack (MongoDB, Express.js, React, Node.js), it leverages Redux Toolkit for efficient state management and Material UI for a sleek, user-friendly interface. This project offers a robust platform for both users and admins, packed with essential features for a seamless experience.
-
-![ecommerce-homepage](https://github.com/RishiBakshii/mern-ecommerce/blob/main/frontend/src/assets/images/front.png?raw=true)
-<!-- ![ecommerce-banner](https://github.com/RishiBakshii/mern-ecommerce/blob/main/frontend/src/assets/images/banner4.jpg?raw=true) -->
-![ecommerce-banner](https://github.com/RishiBakshii/mern-ecommerce/blob/main/frontend/src/assets/images/banner3.jpg?raw=true)
-
+A full-stack application built with MongoDb, Express.js, React.js and Node.js. It uses Material UI for a clean, responsice UI.
 
 # **Features**
 
-### **User:**
-- **Product Reviews:**
-  - Write, edit, and delete reviews.
-  - Instant updates on ratings and star percentages.
-  
-- **Wishlist:**
-  - Add, remove, and annotate products with personalized notes.
-  
-- **Order Management:**
-  - Create new orders and view order history.
-  
-- **Profile Management:**
-  - Manage email, username, and multiple addresses.
-  
-- **Shopping Cart:**
-  - Add products, adjust quantities, and view subtotals.
-
-### **Admin:**
-- **Product Management:**
-  - Add, edit, delete, and soft-delete products.
-  - Manage product attributes like name and stock.
-  
-- **Order Management:**
-  - View and update order details and status.
+### User 
+- Signup, login, logout
+- Product browsing with reviews & ratings
+- Shopping cart with quantity control
+- Wishlist management
+- Place orders & view order history
+- Profile & multiple address management
 
 ### **Security & User Experience:**
-- **Secure Authentication:**
-  - Login, signup, OTP verification, password reset, and logout.
-
-- **Intuitive Interface:**
-  - Powered by Material UI for a visually appealing and user-friendly experience.
-
-### **Scalability:**
-- **Built for Growth:**
-  - Scalable architecture to handle increasing user demands.
+- JWT-based authentication
+- Password reset via email
+- Protected routes
+- Responsive UI using Material UI
 
 
-# **Project Setup**
+# Tech Stack
+
+### Frontend
+- React
+- Redux Toolkit
+- Material UI
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- Nodemailer
 
 ### Prerequisites
 - Node.js ( version v21.1.0 or later )
@@ -58,7 +42,7 @@
 ### Clone the project
 
 ```bash
-  git clone https://github.com/RishiBakshii/mern-ecommerce.git
+  git clone https://github.com/kunalDhanke1/MERN-ecommerce.git
 ```
 
 ### Navigate to the project directory
@@ -67,10 +51,8 @@
   cd mern-ecommerce
 ```
 
-### Install dependencies for frontend and backend separately
-**Tip:** To efficiently install dependencies for both frontend and backend simultaneously, use split terminals.
+### Install dependencies 
 
-Install frontend dependencies
 ```bash
 cd frontend
 npm install
@@ -136,7 +118,7 @@ REACT_APP_BASE_URL="http://localhost:8000"
 **Important:**
 
 - **Separate terminals**: Run the commands in separate terminal windows or use `split terminal` to avoid conflicts.
-- **Nodemon required**: Ensure you have `nodemon` installed globally to run the backend development servers using `npm run dev`. You can install it globally using `npm install -g nodemon`.
+
 
 #### Start the backend server
 - Navigate to the `backend` directory: `cd backend`
@@ -170,9 +152,3 @@ REACT_APP_BASE_URL="http://localhost:8000"
 Once both servers are running, you can access them at the following URL's:
 - Backend: http://localhost:8000
 - Frontend: http://localhost:3000
-
-## **Bonus**
-Don't forget to star the repository and share your feedback!✨
-
-## Authors
-- [@RishiBakshii](https://github.com/RishiBakshii)
